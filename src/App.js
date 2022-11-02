@@ -8,14 +8,6 @@ import AboutIconLink from "./components/AboutIconLink";
 import { FeedbackProvider } from "./context/FeedbackContext";
 
 function App(props) {
-
-    /* 
-        const deleteFeedback = (id) => {
-            if (window.confirm("Are you sure you want to delete this feedback?")) {
-                setFeedback(feedback.filter((item) => item.id !== id))
-            }
-        } */
-
     return (
         <FeedbackProvider>
             <Router>
